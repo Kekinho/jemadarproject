@@ -3,7 +3,7 @@
 JEMADAR-AI is a cloud-edge-based architecture incorporating a Deep Q-Learning algorithm for optimizing energy consumption in smart homes. By leveraging energy production and consumption forecasts, the algorithm intelligently schedules device operation to non-peak energy consumption periods. To perform the experiments and validate the JAMADAR-AI proposal, several tools were used, such as:
 - Fogia;
 - Gridlab-D Automation;
-- Omnet++ and INET Framework;
+- FogNetSim++ with Omnet++ and INET Framework;
 
 In the next lines, more details will be given about each of these parts and their respective source or binary codes for installation or configuration.
 
@@ -17,7 +17,4 @@ Gridlab-D Automation is a script that automates the process of defining houses a
 
 ## Omnet++
 
-To simulate the network and other necessary components, the [INET Framework](https://inet.omnetpp.org/) was used with [Omnet++](https://omnetpp.org/) in respective versions [2.5](https://inet.omnetpp.org/2014-10-30-INET-2.5.0-released.html) and [4.5](https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-45-june-2014).
-
-
-
+To simulate the network and other necessary components, the [FogNetSim++](https://github.com/rtqayyum/fognetsimpp) was used with [INET Framework](https://inet.omnetpp.org/) and [Omnet++](https://omnetpp.org/) in respective versions [3.3.0](https://github.com/inet-framework/inet/blob/v3.3.0/WHATSNEW) and [4.6](https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-46-dec-2014).
