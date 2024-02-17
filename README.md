@@ -1,6 +1,6 @@
 # JEMADAR-AI: An edge architecture for scheduling devices on smart grid energy consumption
 
-JEMADAR-AI is a cloud-edge-based architecture incorporating a Deep Q-Learning algorithm for optimizing energy consumption in smart homes. By leveraging energy production and consumption forecasts, the algorithm intelligently schedules device operation to non-peak energy consumption periods. To perform the experiments and validate the JAMADAR-AI proposal, several tools were used, such as:
+JEMADAR-AI is a cloud-edge-based architecture incorporating a Deep Q-Learning algorithm for optimizing energy consumption in smart homes. By leveraging energy production and consumption forecasts, the algorithm intelligently schedules device operation to non-peak energy consumption periods. To perform the experiments and validate the JEMADAR-AI proposal, several tools were used, such as:
 - Fogia;
 - Gridlab-D Automation;
 - FogNetSim++ with Omnet++ and INET Framework;
